@@ -4,6 +4,7 @@
 @import url(/css/carossel.css);
 @import url(/css/topicos.css);
 @import url(/css/contato.css);
+@import url(/css/rodape.css);
 
 
 :root{
@@ -21,10 +22,5 @@ body{
     font-size: 1em;
     font-weight: 400;
 }
-.rodape{
-    padding: 1em 1em;
-    border-top: 1px solid black;
-    width: 90%
-    bottom: 0;
-}
+
 
