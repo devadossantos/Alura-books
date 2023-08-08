@@ -8,6 +8,7 @@
 .banner_titulo{
     font-size: 18px;
     font-weight: 700;
+    font-family: var(--font-padrao);
 
 }
 .banner_texto{
@@ -31,4 +32,17 @@
     font-size: 14px;
     font-weight: 400;
     text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .banner_titulo{
+        font-size: 36px;
+    }
+    .banner_pesquisa{
+        width: 40%;
+}
+.banner_pesquisa::placeholder {
+    background-position: 5em;
+}
 }
