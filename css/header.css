@@ -30,12 +30,15 @@
     display: block;
 }
 .lista-menu__titulo,
+
 .lista-menu__item{
     padding: 1em;
     background-color: var(--cor-branco);
+    font-weight: 400;
 }
 .lista-menu__titulo{
     color: var(--cor-laranja);
+    font-weight: 700;
 }
 .lista-menu__link{
     background: var(--cor-gradiente);
@@ -43,4 +46,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
+}
+.conteiner__botao{
+    display: none;
 }
