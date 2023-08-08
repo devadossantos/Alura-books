@@ -24,8 +24,6 @@
 .card_botoes{
     display: flex;
     justify-content: space-between;
-
-
 }
 .botoes_itens{
 margin: 0 0.5em;
